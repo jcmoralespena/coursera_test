@@ -1,0 +1,75 @@
+/********** General reset **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+/********** Large devices **********/
+  article {
+    background-color: #BDBDBD;
+    border: solid 1px black;
+    float: left;
+    height: auto;
+    margin-right: 2.5%;
+    width: 30%;
+  }
+  .chicken {
+    margin-left: 2.5%;
+  }
+  h1 {
+    text-align: center;
+    color: black;
+    margin: 30px auto;
+  }
+  p {
+    padding: 10px;
+    clear: right;
+  }
+  #chicken {
+    border: solid black;
+    border-width:  0px 0px 1px 1px;
+    background-color: #F79F81;
+    float: right;
+    text-align: center;
+    width: 35%;
+  }
+  #beef {
+      border: solid black;
+      border-width:  0px 0px 1px 1px;
+      background-color: #F7BE81;
+      float: right;
+      position: relative;
+      text-align: center;
+      width: 35%;
+  }
+  #sushi {
+    border: solid black;
+    border-width:  0px 0px 1px 1px;
+    background-color: #F5DA81;
+    float: right;
+    text-align: center;
+    width: 35%;
+  }
+/********** Medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  article {
+    margin-right: 2.5%;
+    width: 46%;
+  }
+  .sushi {
+    margin-top: 25px;
+    margin-left: 2.5%;
+    width: 94.5%;
+  }
+}
+/********** Medium devices **********/
+@media (max-width: 767px) {
+  article {
+    margin: 2% 5%;
+    width: 90%;
+  }
+  .chicken {
+    margin-left: 5%;
+  }
+}
